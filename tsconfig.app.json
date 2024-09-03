@@ -16,6 +16,8 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "outDir": "./dist/netlify/functions",
+    "rootDir": "./dist/netlify/functions",
 
     /* Linting */
     "strict": true,
@@ -23,5 +25,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src","dist/netlify/functions/**/*.ts"]
 }
