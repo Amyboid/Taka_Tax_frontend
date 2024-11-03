@@ -2,6 +2,8 @@
   margin: 0 auto;
   padding: 2rem 1.6rem;
 }
+
+/* for webkit user, i.e. chrome and safari */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
