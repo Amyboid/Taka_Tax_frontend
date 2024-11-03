@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 2rem 1.6rem;
 }
-
+/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
